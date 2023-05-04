@@ -1,0 +1,52 @@
+html {
+
+    font-family: 'Helvetica Neue', sans-serif;
+    height:93em;
+    width: 90em ;
+}
+
+.flex-container{
+    display: flex;
+    background-color: rgb(245, 238, 238);
+    margin: 20px;
+    justify-content: space-between;
+
+}
+
+.flex-container>div{
+    color: rgb(10, 2, 2);
+    padding: 2px;
+    background-color: #ffffff;
+    margin: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: left;
+    width: 10em;
+    
+    
+  }
+
+  #cheffe {
+    position: relative;
+    top: 10%;
+    height: 23em;
+    line-height: 10em;
+    width: 28em;
+    right: 40%;
+  }
+
+.film {
+    background-image: url("/ressources/img3.webp");
+    background-size: cover;
+    height: 950px;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    padding-left: 2%;
+    font-size: 2em;
+}
+
+#ok1 {
+    font-size: 5em;
+}
